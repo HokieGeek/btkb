@@ -9,10 +9,11 @@ Desktop="Desktop"
 AutoSaveProject=1
 UsedLibrary="/home/andres/.eagle/lbr/con-hirose.lbr"
 UsedLibrary="/home/andres/.eagle/lbr/jumper.lbr"
+UsedLibrary="/home/andres/Dropbox/ee/schematics/eagle/lbr/SparkFun-RF.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="992 14 1599 234"
+Loc="0 14 799 899"
 State=2
 Number=1
 File="btkb.sch"
@@ -60,8 +61,8 @@ Sheet="1"
 
 [Win_2]
 Type="Board Editor"
-Loc="992 235 1599 455"
-State=2
+Loc="800 14 1599 899"
+State=0
 Number=2
 File="btkb.brd"
 View="-27.1308 -1.6 102.493 81.6"
@@ -106,7 +107,7 @@ Layer=16
 
 [Win_3]
 Type="Control Panel"
-Loc="0 14 991 899"
+Loc="800 14 1599 899"
 State=2
 Number=0
 
