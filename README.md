@@ -12,3 +12,4 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 - [RN-42 HID]() - Bluetooth modem with HID firmware
 - [BSS138]() - MOSFET N-Channel Logic
 - [MCP73831T]() - Li-Ion battery 4.5V voltage regulator
+- [LM25775]() - Some sort of regulator
