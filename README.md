@@ -14,7 +14,7 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 - [BSS138](https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf) - MOSFET N-Channel Logic
 - [MCP73831T](https://www.sparkfun.com/datasheets/Prototyping/Batteries/MCP73831T.pdf) - Li-Ion battery 4.5V voltage regulator
 - [MAX17043G+U](http://cdn.sparkfun.com/datasheets/Prototyping/MAX17043-MAX17044.pdf) - Battery gauge (really cool)
-- [LM25775]() - Some sort of regulator
+- [LM25775](http://www.ti.com/lit/ds/symlink/uc2577-adj.pdf) - Adjustable step-up voltage regulatorr
 
 ## Discrete components
 * 1x Red LED (data in to BT)
