@@ -24,7 +24,6 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 * 2x MOSFET N-Channel
 * Resistors
  * 7x 10 kΩ
- * 4x 4.7 kΩ
  * 1x 2 kΩ
  * 1x 1 kΩ
  * 3x 330 Ω
