@@ -15,18 +15,21 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 - [MCP73831T](https://www.sparkfun.com/datasheets/Prototyping/Batteries/MCP73831T.pdf) - Li-Ion battery 4.5V voltage regulator
 - [LM25775](http://www.ti.com/lit/ds/symlink/uc2577-adj.pdf) - Adjustable step-up voltage regulatorr
 
-## Discrete components
-* 1x Red LED (data in to BT)
-* 1x Green LED (data out of BT)
-* Some sort of LED for battery status (TODO)
+## Other components
+* LEDs
+** 1x Red (data in to BT)
+** 1x Green (data out of BT)
+** Some sort of LED for battery status (TODO)
 * 2x MOSFET N-Channel
-* 7x 10 kOhm resistors
-* 4x 4.7 kOhm resistors
-* 1x 2 kOhm resistor
-* 1x 1 kOhm resistor
-* 3x 330 Ohm resistors
-* 1x 100 Ohm resistor
-* 2x 10 uF capacitors
-* 2x 4.7 uF capacitors
-* 2x 1 uF capacitors
-* 1x 10 nF capacitor
+* Resistors
+** 7x 10 kΩ
+** 4x 4.7 kΩ
+** 1x 2 kΩ
+** 1x 1 kΩ
+** 3x 330 Ω
+** 1x 100 Ω
+* Capacitors
+** 2x 10 µF
+** 2x 4.7 µF
+** 2x 1 µF
+** 1x 10 nF
