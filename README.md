@@ -19,17 +19,14 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 
 * LEDs
  * 1x Red (data in to BT)
- * * 1x Green (data out of BT)
+ * 1x Green (data out of BT)
  * Some sort of LED for battery status (TODO)
 * 2x MOSFET N-Channel
 * Resistors
  * 7x 10 kΩ
  * 1x 2 kΩ
- * 1x 1 kΩ
  * 3x 330 Ω
- * 1x 100 Ω
 * Capacitors
- * 2x 10 µF
+ * 2x 10 µF (polarized)
  * 2x 4.7 µF
  * 2x 1 µF
- * 1x 10 nF
