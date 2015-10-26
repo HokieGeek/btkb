@@ -10,10 +10,9 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 
 # Parts list
 ## ICs
-- [RN-42 HID](http://cdn.sparkfun.com/datasheets/Wireless/Bluetooth/BlueSMiRF-ChipAnt-v16.pdf) - Bluetooth modem with HID firmware
+- [RN-42 HID](http://www.sparkfun.com/datasheets/Wireless/Bluetooth/rn-42-ds.pdfdf) - Bluetooth modem with HID firmware
 - [BSS138](https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf) - MOSFET N-Channel Logic
 - [MCP73831T](https://www.sparkfun.com/datasheets/Prototyping/Batteries/MCP73831T.pdf) - Li-Ion battery 4.5V voltage regulator
-- [MAX17043G+U](http://cdn.sparkfun.com/datasheets/Prototyping/MAX17043-MAX17044.pdf) - Battery gauge (really cool)
 - [LM25775](http://www.ti.com/lit/ds/symlink/uc2577-adj.pdf) - Adjustable step-up voltage regulatorr
 
 ## Discrete components
