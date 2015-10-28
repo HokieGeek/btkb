@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2032,7 +2032,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </instance>
 <instance part="P+1" gate="1" x="17.78" y="157.48"/>
 <instance part="P+4" gate="1" x="33.02" y="157.48"/>
-<instance part="R1" gate="G$1" x="86.36" y="157.48"/>
+<instance part="R1" gate="G$1" x="88.9" y="132.08"/>
 <instance part="GND3" gate="1" x="50.8" y="2.54"/>
 <instance part="R2" gate="G$1" x="88.9" y="124.46"/>
 <instance part="R3" gate="G$1" x="17.78" y="147.32" rot="R90"/>
@@ -2117,8 +2117,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<wire x1="81.28" y1="157.48" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
-<label x="63.5" y="157.48" size="1.778" layer="95"/>
+<wire x1="83.82" y1="132.08" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<label x="60.96" y="132.08" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -2129,8 +2129,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="UART_RX_5V" class="0">
 <segment>
-<wire x1="91.44" y1="157.48" x2="101.6" y2="157.48" width="0.1524" layer="91"/>
-<label x="101.6" y="157.48" size="1.778" layer="95"/>
+<wire x1="93.98" y1="132.08" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
+<label x="101.6" y="132.08" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
