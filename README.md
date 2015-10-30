@@ -2,6 +2,9 @@
 
 I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my computer. I am building a module that includes a decent battery and bluetooth modem to replace the cable.
 
+## Prototype
+![Current](http://i.imgur.com/333333.jpg)
+
 # Schematics
 ![Schematics](https://raw.githubusercontent.com/HokieGeek/btkb/btkb.png)
 
