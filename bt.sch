@@ -1238,7 +1238,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="UART" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="USB_D-" class="0">
+<net name="USB_D+" class="0">
 <segment>
 <wire x1="7.62" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <label x="-2.54" y="25.4" size="1.778" layer="95"/>
@@ -1250,7 +1250,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="USB" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="USB_D+" class="0">
+<net name="USB_D-" class="0">
 <segment>
 <wire x1="7.62" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="-2.54" y="22.86" size="1.778" layer="95"/>
