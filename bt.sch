@@ -140,156 +140,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-RF">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find things that send or receive RF- GPS, cellular modules, Bluetooth, WiFi, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="RN41">
-<wire x1="9.4" y1="6.6" x2="-16.4" y2="6.6" width="0.127" layer="51"/>
-<wire x1="-16.4" y1="6.6" x2="-16.4" y2="-6.6" width="0.127" layer="51"/>
-<wire x1="-16.4" y1="-6.6" x2="9.4" y2="-6.6" width="0.127" layer="51"/>
-<wire x1="9.4" y1="-6.6" x2="9.4" y2="6.6" width="0.127" layer="51"/>
-<wire x1="-8.5" y1="6.6" x2="-10.2" y2="6.6" width="0.2032" layer="21"/>
-<wire x1="-8.5" y1="-6.6" x2="-10.2" y2="-6.6" width="0.2032" layer="21"/>
-<wire x1="9.4" y1="6.6" x2="9.4" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="9.4" y1="6.6" x2="8.4" y2="6.6" width="0.2032" layer="21"/>
-<wire x1="9.4" y1="-6.6" x2="9.4" y2="-5.6" width="0.2032" layer="21"/>
-<wire x1="9.4" y1="-6.6" x2="8.4" y2="-6.6" width="0.2032" layer="21"/>
-<wire x1="-16.4" y1="-6.6" x2="-16.4" y2="-5.6" width="0.2032" layer="21"/>
-<wire x1="-16.4" y1="-6.6" x2="-15.4" y2="-6.6" width="0.2032" layer="21"/>
-<wire x1="-16.4" y1="6.6" x2="-16.4" y2="5.6" width="0.2032" layer="21"/>
-<wire x1="-16.4" y1="6.6" x2="-15.4" y2="6.6" width="0.2032" layer="21"/>
-<smd name="1" x="-6.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="2" x="-5.4" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="3" x="-4.2" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="4" x="-3" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="5" x="-1.8" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="6" x="-0.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="7" x="0.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="8" x="1.8" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="9" x="3" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="10" x="4.2" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="11" x="5.4" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="12" x="6.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
-<smd name="13" x="6.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="14" x="5.4" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="15" x="4.2" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="16" x="3" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="17" x="1.8" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="18" x="0.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="19" x="-0.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="20" x="-1.8" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="21" x="-3" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="22" x="-4.2" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="23" x="-5.4" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="24" x="-6.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
-<smd name="28" x="9.4" y="3.1" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="29" x="9.4" y="-3.1" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="35" x="9.4" y="-4.1222" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="34" x="9.4" y="-1.9" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="33" x="9.4" y="-0.7" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="32" x="9.4" y="0.7" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="31" x="9.4" y="1.9" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="30" x="9.4" y="4.1222" dx="0.8" dy="1.6" layer="1" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="RN41">
-<wire x1="-15.24" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-33.02" x2="15.24" y2="33.02" width="0.254" layer="94"/>
-<wire x1="15.24" y1="33.02" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
-<text x="-15.24" y="33.528" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-35.56" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="GND" x="20.32" y="-15.24" length="middle" rot="R180"/>
-<pin name="SPIMOSI" x="-20.32" y="-27.94" length="middle"/>
-<pin name="PIO6" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="PIO7" x="20.32" y="0" length="middle" rot="R180"/>
-<pin name="RESET" x="-20.32" y="25.4" length="middle"/>
-<pin name="SPICLK" x="-20.32" y="-20.32" length="middle"/>
-<pin name="PCMCLK" x="-20.32" y="20.32" length="middle"/>
-<pin name="PCMSYNC" x="-20.32" y="17.78" length="middle"/>
-<pin name="PCMIN" x="-20.32" y="15.24" length="middle"/>
-<pin name="PCMOUT" x="-20.32" y="12.7" length="middle"/>
-<pin name="VDD" x="-20.32" y="27.94" length="middle"/>
-<pin name="GND1" x="20.32" y="-17.78" length="middle" rot="R180"/>
-<pin name="UARTRX" x="-20.32" y="5.08" length="middle"/>
-<pin name="UARTTX" x="-20.32" y="2.54" length="middle"/>
-<pin name="UARTRTS" x="-20.32" y="0" length="middle"/>
-<pin name="UARTCTS" x="-20.32" y="-2.54" length="middle"/>
-<pin name="USBD+" x="-20.32" y="-12.7" length="middle"/>
-<pin name="USBD-" x="-20.32" y="-10.16" length="middle"/>
-<pin name="PIO2" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="PIO3" x="20.32" y="10.16" length="middle" rot="R180"/>
-<pin name="PIO5" x="20.32" y="5.08" length="middle" rot="R180"/>
-<pin name="PIO4" x="20.32" y="7.62" length="middle" rot="R180"/>
-<pin name="SPICSB" x="-20.32" y="-22.86" length="middle"/>
-<pin name="SPIMISO" x="-20.32" y="-25.4" length="middle"/>
-<pin name="PIO9" x="20.32" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND2" x="20.32" y="-25.4" length="middle" rot="R180"/>
-<pin name="PIO8" x="20.32" y="-2.54" length="middle" rot="R180"/>
-<pin name="PIO10" x="20.32" y="-7.62" length="middle" rot="R180"/>
-<pin name="PIO11" x="20.32" y="-10.16" length="middle" rot="R180"/>
-<pin name="AIO0" x="20.32" y="22.86" length="middle" rot="R180"/>
-<pin name="AIO1" x="20.32" y="20.32" length="middle" rot="R180"/>
-<pin name="GND3" x="20.32" y="-27.94" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BLUETOOTH-RN41">
-<description>Bluetooth SMD module</description>
-<gates>
-<gate name="G$1" symbol="RN41" x="0" y="0"/>
-</gates>
-<devices>
-<device name="&quot;" package="RN41">
-<connects>
-<connect gate="G$1" pin="AIO0" pad="30"/>
-<connect gate="G$1" pin="AIO1" pad="35"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND1" pad="12"/>
-<connect gate="G$1" pin="GND2" pad="28"/>
-<connect gate="G$1" pin="GND3" pad="29"/>
-<connect gate="G$1" pin="PCMCLK" pad="7"/>
-<connect gate="G$1" pin="PCMIN" pad="9"/>
-<connect gate="G$1" pin="PCMOUT" pad="10"/>
-<connect gate="G$1" pin="PCMSYNC" pad="8"/>
-<connect gate="G$1" pin="PIO10" pad="33"/>
-<connect gate="G$1" pin="PIO11" pad="34"/>
-<connect gate="G$1" pin="PIO2" pad="19"/>
-<connect gate="G$1" pin="PIO3" pad="20"/>
-<connect gate="G$1" pin="PIO4" pad="22"/>
-<connect gate="G$1" pin="PIO5" pad="21"/>
-<connect gate="G$1" pin="PIO6" pad="3"/>
-<connect gate="G$1" pin="PIO7" pad="4"/>
-<connect gate="G$1" pin="PIO8" pad="31"/>
-<connect gate="G$1" pin="PIO9" pad="32"/>
-<connect gate="G$1" pin="RESET" pad="5"/>
-<connect gate="G$1" pin="SPICLK" pad="6"/>
-<connect gate="G$1" pin="SPICSB" pad="23"/>
-<connect gate="G$1" pin="SPIMISO" pad="24"/>
-<connect gate="G$1" pin="SPIMOSI" pad="2"/>
-<connect gate="G$1" pin="UARTCTS" pad="16"/>
-<connect gate="G$1" pin="UARTRTS" pad="15"/>
-<connect gate="G$1" pin="UARTRX" pad="13"/>
-<connect gate="G$1" pin="UARTTX" pad="14"/>
-<connect gate="G$1" pin="USBD+" pad="17"/>
-<connect gate="G$1" pin="USBD-" pad="18"/>
-<connect gate="G$1" pin="VDD" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun">
 <packages>
 <package name="SOT23-3">
@@ -927,6 +777,48 @@ Used on FTDI breakouts</description>
 <text x="2.56" y="5.125" size="1" layer="27">&gt;Value</text>
 <text x="-2.76" y="6.125" size="1" layer="25" rot="R180">&gt;Name</text>
 </package>
+<package name="RN41">
+<wire x1="9.4" y1="6.6" x2="-16.4" y2="6.6" width="0.127" layer="51"/>
+<wire x1="-16.4" y1="6.6" x2="-16.4" y2="-6.6" width="0.127" layer="51"/>
+<wire x1="-16.4" y1="-6.6" x2="9.4" y2="-6.6" width="0.127" layer="51"/>
+<wire x1="9.4" y1="-6.6" x2="9.4" y2="6.6" width="0.127" layer="51"/>
+<wire x1="9.4" y1="6.6" x2="9.4" y2="5.6" width="0.2032" layer="21"/>
+<wire x1="9.4" y1="6.6" x2="8.4" y2="6.6" width="0.2032" layer="21"/>
+<wire x1="9.4" y1="-6.6" x2="9.4" y2="-5.6" width="0.2032" layer="21"/>
+<wire x1="9.4" y1="-6.6" x2="8.4" y2="-6.6" width="0.2032" layer="21"/>
+<smd name="1" x="-6.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="2" x="-5.4" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="3" x="-4.2" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="4" x="-3" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="5" x="-1.8" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="6" x="-0.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="7" x="0.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="8" x="1.8" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="9" x="3" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="10" x="4.2" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="11" x="5.4" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="12" x="6.6" y="-6.6" dx="0.8" dy="1.6" layer="1" rot="R180"/>
+<smd name="13" x="6.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="14" x="5.4" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="15" x="4.2" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="16" x="3" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="17" x="1.8" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="18" x="0.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="19" x="-0.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="20" x="-1.8" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="21" x="-3" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="22" x="-4.2" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="23" x="-5.4" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="24" x="-6.6" y="6.6" dx="0.8" dy="1.6" layer="1"/>
+<smd name="28" x="9.4" y="3.1" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="29" x="9.4" y="-3.1" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="35" x="9.4" y="-4.1222" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="34" x="9.4" y="-1.9" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="33" x="9.4" y="-0.7" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="32" x="9.4" y="0.7" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="31" x="9.4" y="1.9" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+<smd name="30" x="9.4" y="4.1222" dx="0.8" dy="1.6" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M06">
@@ -948,6 +840,46 @@ Used on FTDI breakouts</description>
 <pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="RN41">
+<wire x1="-15.24" y1="-33.02" x2="15.24" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-33.02" x2="15.24" y2="33.02" width="0.254" layer="94"/>
+<wire x1="15.24" y1="33.02" x2="-15.24" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="33.02" x2="-15.24" y2="-33.02" width="0.254" layer="94"/>
+<text x="-15.24" y="33.528" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-35.56" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="GND" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="SPIMOSI" x="-20.32" y="-27.94" length="middle"/>
+<pin name="PIO6" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="PIO7" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="RESET" x="-20.32" y="25.4" length="middle"/>
+<pin name="SPICLK" x="-20.32" y="-20.32" length="middle"/>
+<pin name="PCMCLK" x="-20.32" y="20.32" length="middle"/>
+<pin name="PCMSYNC" x="-20.32" y="17.78" length="middle"/>
+<pin name="PCMIN" x="-20.32" y="15.24" length="middle"/>
+<pin name="PCMOUT" x="-20.32" y="12.7" length="middle"/>
+<pin name="VDD" x="-20.32" y="27.94" length="middle"/>
+<pin name="GND1" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="UARTRX" x="-20.32" y="5.08" length="middle"/>
+<pin name="UARTTX" x="-20.32" y="2.54" length="middle"/>
+<pin name="UARTRTS" x="-20.32" y="0" length="middle"/>
+<pin name="UARTCTS" x="-20.32" y="-2.54" length="middle"/>
+<pin name="USBD+" x="-20.32" y="-12.7" length="middle"/>
+<pin name="USBD-" x="-20.32" y="-10.16" length="middle"/>
+<pin name="PIO2" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="PIO3" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="PIO5" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="PIO4" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="SPICSB" x="-20.32" y="-22.86" length="middle"/>
+<pin name="SPIMISO" x="-20.32" y="-25.4" length="middle"/>
+<pin name="PIO9" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND2" x="20.32" y="-25.4" length="middle" rot="R180"/>
+<pin name="PIO8" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="PIO10" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="PIO11" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="AIO0" x="20.32" y="22.86" length="middle" rot="R180"/>
+<pin name="AIO1" x="20.32" y="20.32" length="middle" rot="R180"/>
+<pin name="GND3" x="20.32" y="-27.94" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1010,6 +942,53 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
+<deviceset name="BLUETOOTH-RN42-NOSILK">
+<description>Bluetooth SMD module</description>
+<gates>
+<gate name="G$1" symbol="RN41" x="0" y="0"/>
+</gates>
+<devices>
+<device name="&quot;" package="RN41">
+<connects>
+<connect gate="G$1" pin="AIO0" pad="30"/>
+<connect gate="G$1" pin="AIO1" pad="35"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND1" pad="12"/>
+<connect gate="G$1" pin="GND2" pad="28"/>
+<connect gate="G$1" pin="GND3" pad="29"/>
+<connect gate="G$1" pin="PCMCLK" pad="7"/>
+<connect gate="G$1" pin="PCMIN" pad="9"/>
+<connect gate="G$1" pin="PCMOUT" pad="10"/>
+<connect gate="G$1" pin="PCMSYNC" pad="8"/>
+<connect gate="G$1" pin="PIO10" pad="33"/>
+<connect gate="G$1" pin="PIO11" pad="34"/>
+<connect gate="G$1" pin="PIO2" pad="19"/>
+<connect gate="G$1" pin="PIO3" pad="20"/>
+<connect gate="G$1" pin="PIO4" pad="22"/>
+<connect gate="G$1" pin="PIO5" pad="21"/>
+<connect gate="G$1" pin="PIO6" pad="3"/>
+<connect gate="G$1" pin="PIO7" pad="4"/>
+<connect gate="G$1" pin="PIO8" pad="31"/>
+<connect gate="G$1" pin="PIO9" pad="32"/>
+<connect gate="G$1" pin="RESET" pad="5"/>
+<connect gate="G$1" pin="SPICLK" pad="6"/>
+<connect gate="G$1" pin="SPICSB" pad="23"/>
+<connect gate="G$1" pin="SPIMISO" pad="24"/>
+<connect gate="G$1" pin="SPIMOSI" pad="2"/>
+<connect gate="G$1" pin="UARTCTS" pad="16"/>
+<connect gate="G$1" pin="UARTRTS" pad="15"/>
+<connect gate="G$1" pin="UARTRX" pad="13"/>
+<connect gate="G$1" pin="UARTTX" pad="14"/>
+<connect gate="G$1" pin="USBD+" pad="17"/>
+<connect gate="G$1" pin="USBD-" pad="18"/>
+<connect gate="G$1" pin="VDD" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1022,7 +1001,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </class>
 </classes>
 <parts>
-<part name="IC1" library="SparkFun-RF" deviceset="BLUETOOTH-RN41" device="&quot;" value="BLUETOOTH-RN42 HID"/>
 <part name="Q2" library="SparkFun" deviceset="MOSFET-NCHANNEL" device="SMD"/>
 <part name="P+7" library="SparkFun" deviceset="VCC" device="" value="3.3V"/>
 <part name="P+8" library="SparkFun" deviceset="VCC" device=""/>
@@ -1047,15 +1025,15 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="D2" library="SparkFun-LED" deviceset="LED" device="1206"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP2" library="mine" deviceset="M06" device="SMD-NOHOLES" value="RA 6Pin SMD"/>
-<part name="JP1" library="mine" deviceset="M06" device="SMD-FEMALE-V2-NOSILK"/>
+<part name="UART" library="mine" deviceset="M06" device="SMD-NOHOLES" value="RA 6Pin SMD"/>
+<part name="USB" library="mine" deviceset="M06" device="SMD-FEMALE-V2-NOSILK"/>
+<part name="RN-42HID" library="mine" deviceset="BLUETOOTH-RN42-NOSILK" device="&quot;"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="27.94" y="35.56"/>
 <instance part="Q2" gate="G$1" x="25.4" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.59" y="103.886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="20.066" y="93.472" size="1.778" layer="96"/>
@@ -1086,8 +1064,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="D2" gate="G$1" x="58.42" y="38.1"/>
 <instance part="GND5" gate="1" x="83.82" y="48.26" rot="R90"/>
 <instance part="GND6" gate="1" x="58.42" y="20.32"/>
-<instance part="JP2" gate="G$1" x="78.74" y="99.06"/>
-<instance part="JP1" gate="G$1" x="78.74" y="71.12"/>
+<instance part="UART" gate="G$1" x="78.74" y="99.06"/>
+<instance part="USB" gate="G$1" x="78.74" y="71.12"/>
+<instance part="RN-42HID" gate="G$1" x="27.94" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -1103,9 +1082,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="UARTTX"/>
 <wire x1="7.62" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
 <label x="-5.08" y="38.1" size="1.778" layer="95"/>
+<pinref part="RN-42HID" gate="G$1" pin="UARTTX"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -1132,7 +1111,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <wire x1="83.82" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 <label x="86.36" y="78.74" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="6"/>
+<pinref part="USB" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="UART_TX_5V" class="0">
@@ -1148,7 +1127,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <wire x1="83.82" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="86.36" y="101.6" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
+<pinref part="UART" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -1158,9 +1137,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="UARTRX"/>
 <wire x1="7.62" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
 <label x="-5.08" y="40.64" size="1.778" layer="95"/>
+<pinref part="RN-42HID" gate="G$1" pin="UARTRX"/>
 </segment>
 </net>
 <net name="UART_RX_5V" class="0">
@@ -1172,7 +1151,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <wire x1="83.82" y1="99.06" x2="86.36" y2="99.06" width="0.1524" layer="91"/>
 <label x="86.36" y="99.06" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="UART" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -1187,20 +1166,20 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="7.62" y1="63.5" x2="2.54" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="63.5" x2="2.54" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="VCC"/>
+<pinref part="RN-42HID" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <label x="86.36" y="76.2" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="5"/>
+<pinref part="USB" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 <label x="86.36" y="106.68" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="6"/>
+<pinref part="UART" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="UART_RTS" class="0">
@@ -1214,9 +1193,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="UARTRTS"/>
 <wire x1="7.62" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
 <label x="-5.08" y="35.56" size="1.778" layer="95"/>
+<pinref part="RN-42HID" gate="G$1" pin="UARTRTS"/>
 </segment>
 </net>
 <net name="UART_RTS_5V" class="0">
@@ -1232,7 +1211,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <wire x1="83.82" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <label x="86.36" y="96.52" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="UART" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="UART_CTS" class="0">
@@ -1242,9 +1221,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="UARTCTS"/>
 <wire x1="7.62" y1="33.02" x2="5.08" y2="33.02" width="0.1524" layer="91"/>
 <label x="-5.08" y="33.02" size="1.778" layer="95"/>
+<pinref part="RN-42HID" gate="G$1" pin="UARTCTS"/>
 </segment>
 </net>
 <net name="UART_CTS_5V" class="0">
@@ -1256,57 +1235,56 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <segment>
 <wire x1="83.82" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="86.36" y="104.14" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="5"/>
+<pinref part="UART" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="USBD-"/>
 <wire x1="7.62" y1="25.4" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
 <label x="-2.54" y="25.4" size="1.778" layer="95"/>
+<pinref part="RN-42HID" gate="G$1" pin="USBD-"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="71.12" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 <label x="86.36" y="71.12" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="3"/>
+<pinref part="USB" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="USBD+"/>
 <wire x1="7.62" y1="22.86" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="-2.54" y="22.86" size="1.778" layer="95"/>
+<pinref part="RN-42HID" gate="G$1" pin="USBD+"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
 <label x="86.36" y="73.66" size="1.778" layer="95"/>
-<pinref part="JP1" gate="G$1" pin="4"/>
+<pinref part="USB" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PIO2"/>
 <wire x1="48.26" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="RN-42HID" gate="G$1" pin="PIO2"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PIO4"/>
 <wire x1="48.26" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="RN-42HID" gate="G$1" pin="PIO4"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PIO5"/>
 <wire x1="48.26" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="RN-42HID" gate="G$1" pin="PIO5"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="48.26" y1="20.32" x2="50.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 <junction x="50.8" y="17.78"/>
@@ -1315,25 +1293,26 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="50.8" y1="10.16" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
 <junction x="50.8" y="7.62"/>
 <wire x1="50.8" y1="7.62" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND1"/>
 <wire x1="50.8" y1="5.08" x2="50.8" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND2"/>
 <wire x1="48.26" y1="10.16" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="GND3"/>
 <wire x1="48.26" y1="7.62" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="50.8" y="5.08"/>
+<pinref part="RN-42HID" gate="G$1" pin="GND"/>
+<pinref part="RN-42HID" gate="G$1" pin="GND1"/>
+<pinref part="RN-42HID" gate="G$1" pin="GND2"/>
+<pinref part="RN-42HID" gate="G$1" pin="GND3"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="USB" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="UART" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
