@@ -6,10 +6,16 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 ![Current](http://i.imgur.com/333333.jpg)
 
 # Schematics
-![Schematics](https://raw.githubusercontent.com/HokieGeek/btkb/btkb.png)
+## Power module
+![Power module schematics](https://raw.githubusercontent.com/HokieGeek/btkb/master/power.png)
+## Bluetooth module
+![Bluetooth module schematics](https://raw.githubusercontent.com/HokieGeek/btkb/master/bt.png)
 
 # Board
-![Board](https://raw.githubusercontent.com/HokieGeek/btkb/btkb.brd.png)
+## Power module
+![Power module board](https://raw.githubusercontent.com/HokieGeek/btkb/master/power.brd.png)
+## Bluetooth Module
+![Bluetooth module board](https://raw.githubusercontent.com/HokieGeek/btkb/master/bt.brd.png)
 
 # Parts list
 ## ICs
