@@ -1722,6 +1722,20 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <rectangle x1="1.26" y1="-9.2" x2="2.14" y2="-4.725" layer="51"/>
 <rectangle x1="2.96" y1="-9.2" x2="3.84" y2="-4.725" layer="51"/>
 </package>
+<package name="USB-MINIB-TH-VERTICAL">
+<description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
+<smd name="MTN4" x="5.4525" y="-0.04" dx="2.5" dy="2" layer="1" rot="R90"/>
+<smd name="MTN2" x="-5.4525" y="-0.04" dx="2.5" dy="2" layer="1" rot="R90"/>
+<text x="-4.445" y="1.5875" size="0.4064" layer="25" rot="R180">&gt;NAME</text>
+<text x="6.6675" y="1.5875" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
+<pad name="D+" x="0" y="0" drill="0.9"/>
+<pad name="ID" x="1.5875" y="0" drill="0.9"/>
+<pad name="GND" x="3.175" y="0" drill="0.9"/>
+<pad name="D-" x="-1.5875" y="0" drill="0.9"/>
+<pad name="VBUS" x="-3.175" y="0" drill="0.9"/>
+<hole x="5.3975" y="0" drill="1.2"/>
+<hole x="-5.3975" y="0" drill="1.2"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M06">
@@ -1757,6 +1771,19 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <pin name="COMP" x="-10.16" y="-5.08" length="short" direction="in"/>
 <pin name="TAB" x="10.16" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="GND" x="-10.16" y="-7.62" visible="pin" length="short" direction="pwr"/>
+</symbol>
+<symbol name="USB-5PIN-TH-VERTICAL">
+<wire x1="7.62" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<text x="5.334" y="1.778" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="D+" x="-2.54" y="5.08" visible="pad" length="short"/>
+<pin name="D-" x="-2.54" y="7.62" visible="pad" length="short"/>
+<pin name="VBUS" x="-2.54" y="10.16" visible="pad" length="short"/>
+<pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
+<pin name="ID" x="-2.54" y="2.54" visible="pad" length="short"/>
+<text x="7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="0" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1843,6 +1870,32 @@ Source: ON Semiconductor .. 4101.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB-MINIB-TH-VERTICAL" prefix="J">
+<description>&lt;b&gt;Mini-USB "B" connector with 5th pin broken out.&lt;/b&gt;&lt;p&gt;
+Created new symbol breaking out 5th "ID" pin in mini/micro USB connector spec.  See: http://en.wikipedia.org/wiki/Mini_usb#Cables.  Uses same footprint as 4-pin symbol.&lt;p&gt;
+ 
+
+Also added pins to connect to mounting / shield pads if required (probably not generally needed as signals aren't shielded once they leave the connector).</description>
+<gates>
+<gate name="G$1" symbol="USB-5PIN-TH-VERTICAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-5PIN" package="USB-MINIB-TH-VERTICAL">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-08193"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1873,6 +1926,8 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="mine" deviceset="M06" device="SMD-NOHOLES" value="RA 6Pin SMD"/>
 <part name="IC1" library="mine" deviceset="UC27775" device=""/>
+<part name="GND3" library="SparkFun" deviceset="GND" device=""/>
+<part name="J2" library="mine" deviceset="USB-MINIB-TH-VERTICAL" device="-5PIN"/>
 </parts>
 <sheets>
 <sheet>
@@ -1898,10 +1953,12 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <instance part="R2" gate="G$1" x="200.66" y="124.46" rot="R90"/>
 <instance part="C1" gate="G$1" x="154.94" y="127"/>
 <instance part="C2" gate="G$1" x="210.82" y="127"/>
-<instance part="U2" gate="G$1" x="172.72" y="78.74"/>
-<instance part="GND2" gate="1" x="213.36" y="81.28"/>
-<instance part="JP1" gate="G$1" x="205.74" y="91.44"/>
-<instance part="IC1" gate="G$1" x="205.74" y="55.88"/>
+<instance part="U2" gate="G$1" x="165.1" y="45.72"/>
+<instance part="GND2" gate="1" x="177.8" y="73.66"/>
+<instance part="JP1" gate="G$1" x="170.18" y="83.82"/>
+<instance part="IC1" gate="G$1" x="208.28" y="48.26"/>
+<instance part="GND3" gate="1" x="190.5" y="73.66"/>
+<instance part="J2" gate="G$1" x="195.58" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -1921,9 +1978,14 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
-<label x="213.36" y="99.06" size="1.778" layer="95"/>
+<wire x1="175.26" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="177.8" y="91.44" size="1.778" layer="95"/>
 <pinref part="JP1" gate="G$1" pin="6"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<wire x1="198.12" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
+<label x="190.5" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1959,10 +2021,21 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="210.82" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="213.36" y1="86.36" x2="213.36" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="78.74" x2="177.8" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="198.12" y1="40.64" x2="195.58" y2="40.64" width="0.1524" layer="91"/>
+<label x="190.5" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="78.74" x2="190.5" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -2004,6 +2077,37 @@ Source: ON Semiconductor .. 4101.pdf</description>
 <pinref part="X1" gate="G$1" pin="VBUS"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="175.26" y1="86.36" x2="193.04" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="D-"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="175.26" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="D+"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="SWITCH"/>
+<wire x1="198.12" y1="50.8" x2="195.58" y2="50.8" width="0.1524" layer="91"/>
+<label x="190.5" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="193.04" y1="88.9" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<label x="185.42" y="88.9" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="VBUS"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="5"/>
+<wire x1="175.26" y1="88.9" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
+<label x="177.8" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
