@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -211,45 +211,6 @@
 <text x="2.159" y="-4.445" size="1.27" layer="51">+</text>
 <text x="-2.921" y="-4.445" size="1.27" layer="51">-</text>
 </package>
-<package name="USB-MICROB">
-<description>Micro USB Package</description>
-<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="1.25" x2="-3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="3.4" y1="1.25" x2="3.4" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.127" layer="51"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="1.45" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="2.85" x2="-2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.2032" layer="21"/>
-<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
-<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
-<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
-<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
-<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
-<smd name="VBUS" x="-1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="GND" x="1.3" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D-" x="-0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="D+" x="0" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="ID" x="0.65" y="2.65" dx="1.4" dy="0.35" layer="1" rot="R90"/>
-<smd name="MT1" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<smd name="MT2" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
-<text x="-1.6" y="-0.35" size="0.762" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.762" layer="27">&gt;VALUE</text>
-</package>
 </packages>
 </library>
 <library name="SparkFun-Resistors">
@@ -444,6 +405,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="USB-MINIB">
+<description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
+<wire x1="-1.3" y1="3.8" x2="0.8" y2="3.8" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="3.1" x2="3.3" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-2.2" x2="3.3" y2="-3.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="-3.8" x2="-1.3" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-5.9" y1="3.8" x2="-5.9" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="-3.8" x2="-4.5" y2="-3.8" width="0.2032" layer="51"/>
+<wire x1="-5.9" y1="3.8" x2="-4.5" y2="3.8" width="0.2032" layer="51"/>
+<smd name="D+" x="2.5" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="D-" x="2.5" y="0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="GND" x="2.5" y="-1.6" dx="2.5" dy="0.5" layer="1"/>
+<smd name="ID" x="2.5" y="-0.8" dx="2.5" dy="0.5" layer="1"/>
+<smd name="MTN3" x="-3" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="MTN1" x="-3" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="MTN4" x="2.5" y="-4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="MTN2" x="2.5" y="4.5" dx="2.5" dy="2" layer="1"/>
+<smd name="VBUS" x="2.5" y="1.6" dx="2.5" dy="0.5" layer="1"/>
+<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
+<hole x="0" y="2.2" drill="0.9"/>
+<hole x="0" y="-2.2" drill="0.9"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -535,6 +530,9 @@ Please make sure your boards conform to these design rules.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -626,24 +624,23 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="SparkFun-Resistors" package="0805" value="330" x="1.905" y="12.065" rot="MR180">
-<attribute name="PROD_ID" value="RES-09883" x="1.905" y="12.065" size="1.778" layer="28" rot="MR180" display="off"/>
+<element name="R1" library="SparkFun-Resistors" package="0805" value="330" x="9.525" y="15.24" rot="MR180">
+<attribute name="PROD_ID" value="RES-09883" x="9.525" y="15.24" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="PWR" library="SparkFun" package="LED-0603" value="RED" x="1.905" y="12.065" rot="R90"/>
+<element name="PWR" library="SparkFun" package="LED-0603" value="RED" x="6.35" y="11.7475" rot="R90"/>
 <element name="U1" library="SparkFun" package="SOT23-5" value="MCP73831" x="3.175" y="8.255" rot="MR90"/>
 <element name="BAT" library="SparkFun" package="JST-2-SMD" value="LiPo Battery" x="9.8425" y="10.795" smashed="yes" rot="MR0">
 <attribute name="NAME" x="9.2075" y="14.605" size="0.4064" layer="26" rot="MR180"/>
 <attribute name="VALUE" x="11.1125" y="10.795" size="0.4064" layer="28" rot="MR0"/>
 </element>
-<element name="X1" library="SparkFun" package="USB-MICROB" value="Micro USB" x="1.905" y="5.715" rot="R270"/>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="2k" x="2.54" y="4.445" rot="MR180">
 <attribute name="PROD_ID" value="RES-09883" x="2.54" y="4.445" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0805-CAP" value="4.7uF" x="2.54" y="1.905" rot="MR0">
 <attribute name="PROD_ID" value="CAP-11625" x="2.54" y="1.905" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="0805-CAP" value="4.7uF" x="1.905" y="14.2875" rot="MR0">
-<attribute name="PROD_ID" value="CAP-11625" x="1.905" y="14.2875" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="C2" library="SparkFun-Capacitors" package="0805-CAP" value="4.7uF" x="6.35" y="16.51" rot="MR270">
+<attribute name="PROD_ID" value="CAP-11625" x="6.35" y="16.51" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U2" library="SparkFun-DigitalIC" package="SO08-EIAJ" value="Tiny85-20-SMT" x="17.4625" y="10.795" rot="MR180">
 <attribute name="PROD_ID" value="IC-09092" x="17.4625" y="10.795" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -652,33 +649,35 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PROD_ID" value="CONN-08971" x="27.6225" y="9.525" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="25.7175" y="11.43" size="0.8128" layer="26" rot="MR270"/>
 </element>
-<element name="UC27775" library="mine" package="TO263_5" value="UC27775" x="15.24" y="13.335" rot="R90">
-<attribute name="MF" value="TI" x="15.24" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="UC27775" library="mine" package="TO263_5" value="UC27775" x="18.415" y="13.97" rot="R90">
+<attribute name="MF" value="TI" x="18.415" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="KEYBOARD" library="mine" package="USB-MINIB-TH-VERTICAL" value="USB-MINIB-TH-VERTICAL-5PIN" x="14.9225" y="6.0325" rot="R180">
-<attribute name="PROD_ID" value="CONN-08193" x="14.9225" y="6.0325" size="1.016" layer="27" rot="R180" display="off"/>
+<element name="KEYBOARD" library="mine" package="USB-MINIB-TH-VERTICAL" value="USB-MINIB-TH-VERTICAL-5PIN" x="17.78" y="1.905" rot="R180">
+<attribute name="PROD_ID" value="CONN-08193" x="17.78" y="1.905" size="1.016" layer="27" rot="R180" display="off"/>
 </element>
-<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="" x="9.525" y="1.5875" rot="R180"/>
+<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPST-SMD-A" value="" x="1.905" y="14.9225" rot="R90"/>
+<element name="J1" library="SparkFun-Connectors" package="USB-MINIB" value="USB-MINIB-5PIN" x="6.6675" y="5.08">
+<attribute name="PROD_ID" value="CONN-08193" x="6.6675" y="5.08" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VBAT">
 <contactref element="BT" pad="6"/>
 <contactref element="UC27775" pad="5"/>
 <contactref element="S1" pad="3"/>
-<wire x1="22.6225" y1="3.175" x2="23.24" y2="16.735" width="0" layer="19" extent="1-16"/>
-<wire x1="7.275" y1="3.3375" x2="23.24" y2="16.735" width="0" layer="19" extent="1-1"/>
+<wire x1="22.6225" y1="3.175" x2="26.415" y2="17.37" width="0" layer="19" extent="1-16"/>
+<wire x1="3.655" y1="17.1725" x2="26.415" y2="17.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="U1" pad="4"/>
-<contactref element="X1" pad="VBUS"/>
 <contactref element="C1" pad="1"/>
 <contactref element="R1" pad="1"/>
-<wire x1="4.4751" y1="9.205" x2="1.005" y2="12.065" width="0" layer="19" extent="16-16"/>
-<wire x1="4.555" y1="7.015" x2="4.4751" y2="9.205" width="0" layer="19" extent="1-16"/>
-<wire x1="3.44" y1="1.905" x2="4.555" y2="7.015" width="0" layer="19" extent="1-16"/>
+<contactref element="J1" pad="VBUS"/>
+<wire x1="8.625" y1="15.24" x2="4.4751" y2="9.205" width="0" layer="19" extent="16-16"/>
+<wire x1="9.1675" y1="6.68" x2="8.625" y2="15.24" width="0" layer="19" extent="1-16"/>
+<wire x1="3.44" y1="1.905" x2="4.4751" y2="9.205" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
-<contactref element="X1" pad="GND"/>
 <contactref element="R2" pad="1"/>
 <contactref element="BT" pad="1"/>
 <contactref element="UC27775" pad="3"/>
@@ -687,19 +686,20 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="BAT" pad="1"/>
-<wire x1="23.24" y1="13.335" x2="22.6225" y2="15.875" width="0" layer="19" extent="1-16"/>
-<wire x1="10.8425" y1="7.095" x2="23.24" y2="13.335" width="0" layer="19" extent="1-16"/>
-<wire x1="11.7475" y1="6.0325" x2="10.8425" y2="7.095" width="0" layer="19" extent="16-16"/>
-<wire x1="4.555" y1="4.415" x2="10.8425" y2="7.095" width="0" layer="19" extent="1-16"/>
-<wire x1="1.64" y1="4.445" x2="4.555" y2="4.415" width="0" layer="19" extent="1-16"/>
+<contactref element="J1" pad="GND"/>
+<wire x1="26.415" y1="13.97" x2="22.6225" y2="15.875" width="0" layer="19" extent="1-16"/>
+<wire x1="14.605" y1="1.905" x2="26.415" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="10.8425" y1="7.095" x2="14.605" y2="1.905" width="0" layer="19" extent="16-16"/>
+<wire x1="1.8749" y1="8.255" x2="10.8425" y2="7.095" width="0" layer="19" extent="16-16"/>
+<wire x1="1.64" y1="4.445" x2="1.8749" y2="8.255" width="0" layer="19" extent="16-16"/>
 <wire x1="1.64" y1="1.905" x2="1.64" y2="4.445" width="0" layer="19" extent="16-16"/>
-<wire x1="1.8749" y1="8.255" x2="1.64" y2="4.445" width="0" layer="19" extent="16-16"/>
-<wire x1="1.005" y1="14.2875" x2="1.8749" y2="8.255" width="0" layer="19" extent="16-16"/>
+<wire x1="9.1675" y1="3.48" x2="1.64" y2="1.905" width="0" layer="19" extent="1-16"/>
+<wire x1="6.35" y1="15.61" x2="1.8749" y2="8.255" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$12">
 <contactref element="PWR" pad="A"/>
 <contactref element="R1" pad="2"/>
-<wire x1="2.655" y1="12.065" x2="2.805" y2="12.065" width="0" layer="19" extent="1-16"/>
+<wire x1="7.1" y1="11.7475" x2="10.425" y2="15.24" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="PROG">
 <contactref element="U1" pad="5"/>
@@ -709,32 +709,32 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="STAT">
 <contactref element="PWR" pad="C"/>
 <contactref element="U1" pad="1"/>
-<wire x1="1.8749" y1="7.305" x2="1.155" y2="12.065" width="0" layer="19" extent="1-16"/>
+<wire x1="1.8749" y1="7.305" x2="5.6" y2="11.7475" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$2">
 <contactref element="BT" pad="4"/>
 <contactref element="KEYBOARD" pad="D-"/>
-<wire x1="16.51" y1="6.0325" x2="22.6225" y2="8.255" width="0" layer="19" extent="16-16"/>
+<wire x1="19.3675" y1="1.905" x2="22.6225" y2="8.255" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$3">
 <contactref element="BT" pad="3"/>
 <contactref element="KEYBOARD" pad="D+"/>
-<wire x1="14.9225" y1="6.0325" x2="22.6225" y2="10.795" width="0" layer="19" extent="16-16"/>
+<wire x1="17.78" y1="1.905" x2="22.6225" y2="10.795" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VCC">
 <contactref element="UC27775" pad="4"/>
 <contactref element="BT" pad="5"/>
 <contactref element="KEYBOARD" pad="VBUS"/>
-<wire x1="22.6225" y1="5.715" x2="23.24" y2="15.035" width="0" layer="19" extent="1-16"/>
-<wire x1="18.0975" y1="6.0325" x2="22.6225" y2="5.715" width="0" layer="19" extent="16-16"/>
+<wire x1="22.6225" y1="5.715" x2="26.415" y2="15.67" width="0" layer="19" extent="1-16"/>
+<wire x1="20.955" y1="1.905" x2="22.6225" y2="5.715" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBAT2">
 <contactref element="U1" pad="3"/>
 <contactref element="C2" pad="1"/>
 <contactref element="BAT" pad="2"/>
 <contactref element="S1" pad="1"/>
-<wire x1="11.775" y1="3.3375" x2="2.805" y2="14.2875" width="0" layer="19" extent="1-16"/>
-<wire x1="1.8749" y1="9.205" x2="11.775" y2="3.3375" width="0" layer="19" extent="1-16"/>
+<wire x1="3.655" y1="12.6725" x2="6.35" y2="17.41" width="0" layer="19" extent="1-16"/>
+<wire x1="1.8749" y1="9.205" x2="3.655" y2="12.6725" width="0" layer="19" extent="1-16"/>
 <wire x1="8.8425" y1="7.095" x2="1.8749" y2="9.205" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
