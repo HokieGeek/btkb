@@ -18,6 +18,8 @@ I have a fantastic Pok3r mech that, annoyingly, uses a cable to connect to my co
 ![Bluetooth module board](https://raw.githubusercontent.com/HokieGeek/btkb/master/bt.brd.png)
 
 # Parts list
+[Mouser project](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?ProjectGUID=d7660f5c-4cd6-4143-9f81-287e7d12060d)
+
 ## ICs
 - [RN-42 HID](http://www.sparkfun.com/datasheets/Wireless/Bluetooth/rn-42-ds.pdf) - Bluetooth modem with HID firmware
 - [BSS138](https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf) - MOSFET N-Channel Logic
